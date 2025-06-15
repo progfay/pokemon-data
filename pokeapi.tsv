@@ -1151,7 +1151,7 @@ national_pokedex_number	id	species_name_ja	name_en	variant	form_name_ja	is_defau
 899	899	アヤシシ	wyrdeer			1
 900	900	バサギリ	kleavor			1
 901	901	ガチグマ	ursaluna			1
-901	10272	ガチグマ	ursaluna-bloodmoon	bloodmoon	アカツキ	
+901	10272	ガチグマ	ursaluna-bloodmoon	bloodmoon	アカツキ	1
 902	902	イダイトウ	basculegion-male	male	オスのすがた	1
 902	10248	イダイトウ	basculegion-female	female	メスのすがた	
 903	903	オオニューラ	sneasler			1

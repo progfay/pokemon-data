@@ -533,7 +533,8 @@ n408	ズガイドス	408	cranidos	ズガイドス		0408-00
 n409	ラムパルド	409	rampardos	ラムパルド		0409-00
 n410	タテトプス	410	shieldon	タテトプス		0410-00
 n411	トリデプス	411	bastiodon	トリデプス		0411-00
-n412	ミノムッチ	412	burmy	ミノムッチ	くさきのミノ	0412-00
+		412	burmy	ミノムッチ	くさきのミノ	0412-00
+n412	ミノムッチ(くさき)					
 n413	ミノマダム(くさき)	413	wormadam-plant	ミノマダム	くさきのミノ	0413-00
 n413s	ミノマダム(すなち)	10004	wormadam-sandy	ミノマダム	すなちのミノ	0413-01
 n413d	ミノマダム(ゴミ)	10005	wormadam-trash	ミノマダム	ゴミのミノ	0413-02
@@ -1133,7 +1134,7 @@ n888f	ザシアン(王)	10188	zacian-crowned	ザシアン	けんのおう	0888-0
 n889	ザマゼンタ	889	zamazenta	ザマゼンタ	れきせんのゆうしゃ	0889-00
 n889f	ザマゼンタ(王)	10189	zamazenta-crowned	ザマゼンタ	たてのおう	0889-01
 n890	ムゲンダイナ	890	eternatus	ムゲンダイナ		0890-00
-n890f	ムゲンダイナ(ムゲン)	10190	eternatus-eternamax	ムゲンダイナ	ムゲンダイマックス	
+		10190	eternatus-eternamax	ムゲンダイナ	ムゲンダイマックス	
 n891	ダクマ	891	kubfu	ダクマ		0891-00
 		10227	urshifu-rapid-strike-gmax	ウーラオス		
 		10226	urshifu-single-strike-gmax	ウーラオス		

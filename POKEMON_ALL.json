@@ -4806,13 +4806,22 @@
     "pokedbtokyo_id":"0411-00"
   },
   {
-    "yakkuncom_id":"n412",
-    "yakkuncom_name":"ミノムッチ",
+    "yakkuncom_id":null,
+    "yakkuncom_name":null,
     "pokeapi_id":412,
     "pokeapi_name":"burmy",
     "pokeapi_species_name_ja":"ミノムッチ",
     "pokeapi_form_name_ja":"くさきのミノ",
     "pokedbtokyo_id":"0412-00"
+  },
+  {
+    "yakkuncom_id":"n412",
+    "yakkuncom_name":"ミノムッチ(くさき)",
+    "pokeapi_id":null,
+    "pokeapi_name":null,
+    "pokeapi_species_name_ja":null,
+    "pokeapi_form_name_ja":null,
+    "pokedbtokyo_id":null
   },
   {
     "yakkuncom_id":"n413",
@@ -10206,8 +10215,8 @@
     "pokedbtokyo_id":"0890-00"
   },
   {
-    "yakkuncom_id":"n890f",
-    "yakkuncom_name":"ムゲンダイナ(ムゲン)",
+    "yakkuncom_id":null,
+    "yakkuncom_name":null,
     "pokeapi_id":10190,
     "pokeapi_name":"eternatus-eternamax",
     "pokeapi_species_name_ja":"ムゲンダイナ",
