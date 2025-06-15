@@ -3,11 +3,11 @@ all: pokemon items index.d.ts
 
 .PHONY: pokemon
 pokemon: yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv
-	python merge-tsvs.py yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv --out_tsv POKEMON_ALL.tsv --out_json POKEMON_ALL.json
+	poetry run python merge-tsvs.py yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv --out_tsv POKEMON_ALL.tsv --out_json POKEMON_ALL.json
 
 .PHONY: items
 items: source/pokeapi-item_names.csv source/pokedbtokyo-item-names.json
-	python merge-items.py source/pokeapi-item_names.csv source/pokedbtokyo-item-names.json --out_tsv ITEM_ALL.tsv --out_json ITEM_ALL.json
+	poetry run python merge-items.py source/pokeapi-item_names.csv source/pokedbtokyo-item-names.json --out_tsv ITEM_ALL.tsv --out_json ITEM_ALL.json
 
 .PHONY: test
 test:
@@ -18,7 +18,7 @@ yakkuncom.tsv: source/yakkuncom-zukan.html
 	cat $< | iconv -f euc-jp -t utf8 | perl -nle 'm#li .*?data-no="([0-9]+)"[^>]+>.*?<a href="/sv/zukan/([^"]+)">.*?</i>(.+?)(?:<span>\((.+?)\)</span>)?</a></li># and print join "\t", $$1, $$2, $$3, $$4' | sort -n >> $@
 
 pokeapi.tsv: source/pokeapi-allpokemons.json
-	python format-pokeapi-allpokemons.py $< > $@
+	poetry run python format-pokeapi-allpokemons.py $< > $@
 
 source/pokeapi-allpokemons.json: pokeapi.allpokemons.graphql.postcontent
 	curl --fail https://beta.pokeapi.co/graphql/v1beta --data @$< | jq . > $@
